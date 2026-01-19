@@ -99,6 +99,10 @@ h3{
     padding-bottom: 10px;
   }
 
+  h3 p span{
+    color:#6c7a94;
+  }
+
 #page-top nav img{
     box-shadow: 0 0 10px rgba(194,188,188);
 }
@@ -434,6 +438,13 @@ h1 span{
   .project-card p {
     font-size: 0.95rem;
     color: #B0B0B0;
+    font-family: 'Noto Sans TC', sans-serif;
+    margin-top: 0.5rem;
+  }
+
+  .project-card p span {
+    font-size: 0.95rem;
+    color: #6c7a94;
     font-family: 'Noto Sans TC', sans-serif;
     margin-top: 0.5rem;
   }
