@@ -523,6 +523,17 @@ svg {
     margin-left: 5px;
 }
 
+#award .card-title a{
+    color: #212529; /* 預設深灰色 */
+    transition: color 0.3s ease; /* 讓變色過程平滑一點 */
+    text-decoration: none; /* 去除底線 */
+}
+
+#award .card-title a:hover{
+    color: #007bff; /* 變成藍色（或你喜歡的顏色） */
+    text-decoration: underline; /* 或是加上底線提示 */
+}
+
 /* cd */
 .vinyl-row {
     display: flex;
